@@ -26,7 +26,7 @@ public class ProductsPage {
  WebElement tshirt;
   
  public void tests() {
-	 System.out.println("");
+	 System.out.println("Add the products");
  }
    public void navigateToProducts() {
 	   
