@@ -25,6 +25,9 @@ public class ProductsPage {
  @FindBy(xpath = "//*[@href='/product_details/2']")
  WebElement tshirt;
   
+ public void tests() {
+	 System.out.println("");
+ }
    public void navigateToProducts() {
 	   
 	try {
