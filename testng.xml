@@ -5,6 +5,7 @@
     <classes>
       <class name="tests.SignUpTestCase"/>
       <class name="tests.OrderPlacementTestcases"/>
+      <class name="tests.LogOutTestCase"/>     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

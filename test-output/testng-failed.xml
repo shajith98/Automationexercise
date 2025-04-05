@@ -3,20 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.OrderPlacementTestcases">
+      <class name="tests.LogOutTestCase">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="placeOrder"/>
-        </methods>
-      </class> <!-- tests.OrderPlacementTestcases -->
-      <class name="tests.SignUpTestCase">
-        <methods>
-          <include name="signup"/>
+          <include name="logout"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- tests.SignUpTestCase -->
+      </class> <!-- tests.LogOutTestCase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
